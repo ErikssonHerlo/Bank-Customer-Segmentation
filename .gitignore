@@ -1,0 +1,70 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Distribución / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de notebook exportados o auxiliares
+*.nbconvert.ipynb
+
+# Datos pesados opcionales
+data/processed/
+data/interim/
+
+# Modelos o artefactos generados
+models/
+artifacts/
+outputs/
+
+# Archivos comprimidos
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Sistema operativo
+ehthumbs.db
+desktop.ini
